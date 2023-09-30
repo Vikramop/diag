@@ -8,7 +8,7 @@ import e3 from '../assets/e3.png';
 
 const Hero = () => {
   return (
-    <div className="text-white bg-black h-auto max-xl:w-[100%] h-[100vh] flex justify-center gap-40 ">
+    <div className="text-white bg-black h-auto max-xl:w-[100%] flex justify-center gap-40 ">
       <div className=" mt-40">
         <img src={Line} alt="line" />
         <h1 className="text-[48px] font-bold mt-4">
@@ -33,22 +33,22 @@ const Hero = () => {
 
           <div className="gap-5 flex flex-col mt-8">
             <div className="flex gap-6">
-              <p className="text-[20px] font-semibold bg-[#3533337d] tracking-wider py-1 pl-1 pr-24 leading-loose">
+              <p className="text-[20px] font-semibold bg-[#3533337d] tracking-wider py-1 pl-3 pr-24 leading-loose">
                 AI-Driven Proposal <br />
                 Analysis
               </p>
-              <p className="text-[20px] font-semibold bg-[#3533337d] tracking-wider py-1 pl-1 pr-32 leading-loose">
+              <p className="text-[20px] font-semibold bg-[#3533337d] tracking-wider py-1 pl-3 pr-32 leading-loose">
                 {' '}
                 Proposal <br />
                 Ranking
               </p>
             </div>
             <div className="flex gap-8">
-              <p className="text-[20px] font-semibold bg-[#3533337d] tracking-wider py-1 pl-1 pr-24 leading-loose">
+              <p className="text-[20px] font-semibold bg-[#3533337d] tracking-wider py-1 pl-3 pr-24 leading-loose">
                 Token-Based <br />
                 Voting
               </p>
-              <p className="text-[20px] font-semibold bg-[#3533337d] tracking-wider py-1 pl-1 pr-24 leading-loose">
+              <p className="text-[20px] font-semibold bg-[#3533337d] tracking-wider py-1 pl-3 pr-24 leading-loose">
                 Voting <br /> Recommendations
               </p>
             </div>
