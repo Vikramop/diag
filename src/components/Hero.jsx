@@ -4,7 +4,7 @@ import Heroimg from '../assets/heroimg.png';
 
 const Hero = () => {
   return (
-    <div className="text-white bg-black w-[100%] h-[100vh] flex justify-center gap-40 ">
+    <div className="text-white bg-black h-auto max-xl:w-[100%] h-[100vh] flex justify-center gap-40 ">
       <div className=" mt-40">
         <img src={Line} alt="line" />
         <h1 className="text-[48px] font-bold mt-4">
