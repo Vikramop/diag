@@ -32,25 +32,24 @@ const Hero = () => {
           <h1 className="text-[24px] font-semibold ">OVERVIEW</h1>
 
           <div className="gap-5 flex flex-col mt-8">
-            <div className="flex gap-4">
-              <p className="text-[20px] font-semibold bg-[#3533337d] py-1 pl-1 pr-12 leading-loose">
+            <div className="flex gap-6">
+              <p className="text-[20px] font-semibold bg-[#3533337d] tracking-wider py-1 pl-1 pr-24 leading-loose">
                 AI-Driven Proposal <br />
                 Analysis
               </p>
-              <p className="text-[20px] font-semibold bg-[#3533337d] py-1 pl-1 pr-20 leading-loose">
+              <p className="text-[20px] font-semibold bg-[#3533337d] tracking-wider py-1 pl-1 pr-32 leading-loose">
                 {' '}
                 Proposal <br />
                 Ranking
               </p>
             </div>
-            <div className="flex gap-5">
-              <p className="text-[20px] font-semibold bg-[#3533337d] py-1 pl-1 pr-12 leading-loose">
+            <div className="flex gap-8">
+              <p className="text-[20px] font-semibold bg-[#3533337d] tracking-wider py-1 pl-1 pr-24 leading-loose">
                 Token-Based <br />
                 Voting
               </p>
-              <p className="text-[20px] font-semibold bg-[#3533337d] py-1 pl-1 pr-12 leading-loose">
-                Voting <br />
-                Recommendations
+              <p className="text-[20px] font-semibold bg-[#3533337d] tracking-wider py-1 pl-1 pr-24 leading-loose">
+                Voting <br /> Recommendations
               </p>
             </div>
           </div>
