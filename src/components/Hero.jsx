@@ -53,7 +53,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <img src={Heroimg} alt="heroimg" className="ml-24" />
+      <img src={Heroimg} alt="heroimg" className="ml-24 w-[500px] h-[800px]" />
     </div>
   );
 };
