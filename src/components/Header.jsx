@@ -6,7 +6,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = React.useState(false);
   return (
     <>
-      <div className="w-full relative bg-[#000000] flex items-center justify-between py-3 px-[3%] lg:px-[1%] xl:px-[4%]  z-50 text-white  top-0 left-0">
+      <div className="w-full relative bg-[#312f2f46] flex items-center justify-between py-3 px-[3%] lg:px-[1%] xl:px-[4%]  z-50 text-white  top-0 left-0">
         <div className="z-50">
           <a href="#">
             {' '}
